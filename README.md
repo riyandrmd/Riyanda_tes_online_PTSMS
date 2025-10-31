@@ -16,13 +16,13 @@ composer install
 ```
 
 ### 3. Buat Database
-```bash
+```sql
 CREATE DATABASE banyumas;
 ```
 
 ### 4. Konfigurasi environment
 buka file .env dan sesuaikan konfigurasi berikut:
-```bash
+```sql
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=
@@ -50,5 +50,5 @@ php artisan serve
 ```
 
 ### API testing
-**[Download Postman Collection](https://raw.githubusercontent.com/riyandrmd/Riyanda_tes_online_PTSMS/refs/heads/main/Project%20Laravel%20PT%20SMS.postman_collection.json)**
+**[Download Postman Collection](https://github.com/riyandrmd/Riyanda_tes_online_PTSMS/blob/main/Project%20Laravel%20PT%20SMS.postman_collection.json)**
 
