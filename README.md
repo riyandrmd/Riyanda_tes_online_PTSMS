@@ -22,7 +22,7 @@ CREATE DATABASE banyumas;
 
 ### 4. Konfigurasi environment
 buat file .env dengan
-```html
+```bash
 cp .env.example .env
 ```
 buka file .env dan sesuaikan konfigurasi berikut:
