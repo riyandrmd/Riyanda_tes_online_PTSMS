@@ -21,21 +21,15 @@ CREATE DATABASE banyumas;
 ```
 
 ### 4. Konfigurasi environment
+buat file .env dengan
+```bash
+cp .env.example .env
+```
 buka file .env dan sesuaikan konfigurasi berikut:
 ```sql
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=
-APP_DEBUG=true
-APP_URL=http://127.0.0.1:8000
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
 DB_DATABASE=banyumas
 DB_USERNAME=root
 DB_PASSWORD=
-
 ```
 
 ### 5. Generate key & migrate database
